@@ -1,0 +1,88 @@
+{
+    "success": true,
+    "data": [{
+            "ModuleId": "1",
+            "ModuleName": "系统管理",
+            "ModuleUri": null,
+            "ParentModuleId": null,
+            "DisplayOrder": 9000,
+            "Deleted": false,
+            "icon": "el-icon-menu",
+            "childModele": [{
+                    "ModuleId": "101",
+                    "ModuleName": "菜单管理",
+                    "ModuleUri": "/main/queryLog",
+                    "ParentModuleId": 1,
+                    "DisplayOrder": 9010,
+                    "Deleted": false
+                },
+                {
+                    "ModuleId": "102",
+                    "ModuleName": "角色管理",
+                    "ModuleUri": "/main/test",
+                    "ParentModuleId": 1,
+                    "DisplayOrder": 9020,
+                    "Deleted": false
+                },
+                {
+                    "ModuleId": "103",
+                    "ModuleName": "用户管理",
+                    "ModuleUri": "UserManagement",
+                    "ParentModuleId": 1,
+                    "DisplayOrder": 9030,
+                    "Deleted": false
+                },
+                {
+                    "ModuleId": "104",
+                    "ModuleName": "日志查询",
+                    "ModuleUri": "LogManagement",
+                    "ParentModuleId": 1,
+                    "DisplayOrder": 9040,
+                    "Deleted": false
+                }
+            ]
+        },
+        {
+            "ModuleId": "2",
+            "ModuleName": "消息信息",
+            "ModuleUri": null,
+            "ParentModuleId": null,
+            "DisplayOrder": 9000,
+            "Deleted": false,
+            "icon": "el-icon-message",
+            "childModele": [{
+                    "ModuleId": "201",
+                    "ModuleName": "菜单管理",
+                    "ModuleUri": "ModuleManagement",
+                    "ParentModuleId": 1,
+                    "DisplayOrder": 9010,
+                    "Deleted": false
+                },
+                {
+                    "ModuleId": "202",
+                    "ModuleName": "角色管理",
+                    "ModuleUri": "RoleManagement",
+                    "ParentModuleId": 1,
+                    "DisplayOrder": 9020,
+                    "Deleted": false
+                },
+                {
+                    "ModuleId": "203",
+                    "ModuleName": "用户管理",
+                    "ModuleUri": "UserManagement",
+                    "ParentModuleId": 1,
+                    "DisplayOrder": 9030,
+                    "Deleted": false
+                },
+                {
+                    "ModuleId": "204",
+                    "ModuleName": "日志查询",
+                    "ModuleUri": "LogManagement",
+                    "ParentModuleId": 2,
+                    "DisplayOrder": 9040,
+                    "Deleted": false
+                }
+            ]
+        }
+    ]
+}

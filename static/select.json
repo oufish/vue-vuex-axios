@@ -1,0 +1,34 @@
+[
+  {
+        "value": "HTML-1",
+        "label": "HTML1"
+  },
+  {
+        "value": "CSS-2",
+        "label": "CSS2"
+  },
+  {
+        "value": "JavaScript-3",
+        "label": "JavaScript3"
+  },
+  {
+        "value": "CSS-4",
+        "label": "CSS4"
+  },
+  {
+        "value": "深层次的",
+        "label": "深层次的"
+  },
+  {
+        "value": "四川成都",
+        "label": "四川成都"
+  },
+  {
+        "value": "四川绵阳",
+        "label": "四川绵阳"
+  },
+  {
+        "value": "四川德阳",
+        "label": "四川德阳"
+  }
+]
